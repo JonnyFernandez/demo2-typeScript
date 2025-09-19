@@ -1,6 +1,11 @@
-# Node con TypeScript TS-node-dv (preferido)
+# 🚀 Node.js con TypeScript y TS-Node-Dev
 
-## **Configuracion en 3 pasos**
+Configuración rápida y optimizada para proyectos con **Node.js + TypeScript**, utilizando **TS-Node-Dev** como entorno de desarrollo.  
+Incluye scripts para ejecutar en modo desarrollo, compilar a JavaScript y levantar en producción.
+
+---
+
+## 📦 Instalación
 
 1. Instalar TypeScript y demás dependencias
 
@@ -22,13 +27,13 @@ npx tsc --init --outDir dist/ --rootDir src
   "start": "npm run build && node dist/app.js"
 ```
 
-4. Tareas programadas y cronologicas
+4. Tareas programadas y cronologicas ([cron](https://www.npmjs.com/package/cron))
 
 ```
 npm i cron
 ```
 
-5. Sevicion de desarrollo Jason Server
+5. Sevicion de desarrollo Jason Server ([json-server](https://www.npmjs.com/package/json-server?activeTab=readme))
 
 ```
 npm i json-server
