@@ -27,14 +27,34 @@ npx tsc --init --outDir dist/ --rootDir src
   "start": "npm run build && node dist/app.js"
 ```
 
+---
+
+## 👀 Observar un servicion
+
+Nos brinda la posibilidad de verificar o ejecutar algo pediodicamente
+
 4. Tareas programadas y cronologicas ([cron](https://www.npmjs.com/package/cron))
 
 ```
 npm i cron
 ```
 
+---
+
+## 🌐 Sevidor local
+
+Con Json-Server creamos un servidor local en modo desarrollo
+
 5. Sevicion de desarrollo Jason Server ([json-server](https://www.npmjs.com/package/json-server?activeTab=readme))
 
 ```
 npm i json-server
+```
+
+## 🌐 Para Variables de estados con templates
+
+6. configurar variables de estado con templates
+
+```
+npm install env-var
 ```
